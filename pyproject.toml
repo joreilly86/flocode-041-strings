@@ -1,0 +1,16 @@
+[project]
+name = "041-strings"
+version = "0.1.0"
+description = "Examples supporting Flocode Newsletter #041 - Python Essentials | 04 - Data Types: Strings"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.2.2",
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.9.2",
+    "fpdf>=1.7.2",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
