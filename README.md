@@ -37,7 +37,9 @@ This repository supports Flocode Newsletter #041, focusing on Python's string da
 - Open `strings_tutorial.ipynb` in Jupyter Notebook or JupyterLab to follow the tutorial
 - Run `clean_up.py` to see string-based data cleaning in action:
 
-  python clean_up.py
+    ```
+    python clean_up.py
+    ```
 
 ## Contributing
 
