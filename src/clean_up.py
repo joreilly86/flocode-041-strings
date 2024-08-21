@@ -25,10 +25,10 @@ def clean_borehole_data(file_path):
     return df
 
 # Use the function
-cleaned_df = clean_borehole_data('borehole_data.xlsx')
+cleaned_df = clean_borehole_data('../data/borehole_data.xlsx')
 
 print("\nCleaned DataFrame (first few rows):")
 print(cleaned_df.head().to_string(index=False))
 
 # Optionally, save the cleaned data to a new Excel file
-cleaned_df.to_excel('cleaned_borehole_data.xlsx', index=False)
+cleaned_df.to_excel('../data/cleaned_borehole_data.xlsx', index=False)
