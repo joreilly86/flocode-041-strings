@@ -24,7 +24,7 @@ def clean_borehole_data(file_path):
     
     return df
 
-# Use the function
+# Use the function - be careful with the file path if you are running with a different directory structure
 cleaned_df = clean_borehole_data('../data/borehole_data.xlsx')
 
 print("\nCleaned DataFrame (first few rows):")
